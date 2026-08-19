@@ -1,0 +1,14 @@
+const a="Hari";
+const b=19;
+const c="19";
+const per=98.9;
+const isStudent=true;
+let address;
+const phone=null;
+console.log("Name:" + typeof a);
+console.log("Age:" + typeof b);
+console.log("Age:" + typeof c);
+console.log("Percentage:" + typeof per);
+console.log("isStudent:" + typeof isStudent);
+console.log("Address:" + typeof address);
+console.log("phone:" + typeof phone);
