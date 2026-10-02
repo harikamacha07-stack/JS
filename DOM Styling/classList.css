@@ -1,0 +1,9 @@
+.highlight {
+    color: blue;
+    background-color: yellow;
+    font-size: 40px;
+}
+.dark {
+    background-color: black;
+    color:antiquewhite;
+}
