@@ -1,0 +1,14 @@
+let n=6;
+let re=(n) => n*n;
+console.log("Square of " + n + ": " + re(n));
+let nums=[1,2,3,4,5];
+console.log("Original Array: " + nums);
+let sq=nums.map((n) => n*n);
+console.log("Resultant Array: " + sq);
+let num = [10, 15, 22, 31, 40, 55];
+console.log("Original Array: " + num);
+let ev=num.filter((n) => n%2==0);
+console.log("Resultant Array: " + ev);
+let sentence = "I am learning JavaScript";
+console.log("Javascript: " + sentence.includes("Javascript"));
+console.log("Python: " + sentence.includes("Python"));
