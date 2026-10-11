@@ -11,7 +11,7 @@ fetch("https://jsonplaceholder.typicode.com/users")
 
         b.addEventListener("click", () => {
             let city=document.createElement("city");
-            city.textContent="UserName: "+user.name+" | Email: "+user.email+" | city: "+user.address.city;
+            city.textContent="city: "+user.address.city;
             userdiv.appendChild(city);
         } );
          userdiv.appendChild(p);
